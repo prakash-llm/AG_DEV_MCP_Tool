@@ -3,6 +3,7 @@ from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP("My App")
 
+print("Calling MCP Tool")
 
 @mcp.tool()
 def calculate_bmi(weight_kg: float, height_m: float) -> float:
